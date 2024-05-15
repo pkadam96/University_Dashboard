@@ -1,0 +1,25 @@
+.side{
+    width: "300px";
+    height: "86vh";
+    background-color: "#52668b";
+    color: "white"
+}
+ul{
+    padding: 0;
+}
+ul li{
+   list-style: none;
+   padding: 15px 50px;
+   margin: 30px 0;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+ul li:hover{
+    background-color: #6c85b3
+ }

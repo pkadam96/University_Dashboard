@@ -1,0 +1,44 @@
+.container{
+    height: 90vh;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #52668b;
+}
+
+.login-form {
+    padding: 5% 3%;
+    width:400px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+ 
+.signuplink{
+    text-align: center;
+    margin-top:10%;
+} 
+
+.show-password{
+    margin: 10px 0;
+    text-align: right;
+}
+
+.show-password a, .signuplink a{
+    text-decoration: none;
+}
+.login-form input, .login-btn{
+    padding: 10px;
+}
+.login-btn{
+    width: 100%;
+    margin-top: 5%;
+    font-size: large;
+    background-color:#52668b;
+}

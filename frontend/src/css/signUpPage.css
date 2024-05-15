@@ -1,0 +1,38 @@
+.container{
+    margin-top: 2%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.register-form h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #52668b;
+}
+
+.register-form {
+    padding: 3%;
+    width:500px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+ 
+.signuplink{
+    text-align: center;
+    margin-top:6%;
+} 
+
+.show-password{
+    margin: 10px 0;
+    text-align: right;
+}
+.register-form input, .register-btn{
+    padding: 10px;
+}
+.register-btn{
+    width: 100%;
+    margin-top: 5%;
+    font-size: large;
+    background-color: #52668b;
+}
