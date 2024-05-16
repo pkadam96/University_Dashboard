@@ -43,5 +43,5 @@ If you'd like to run this project locally or contribute to its development, you 
 2. Navigate to the project directory.
 3. Install dependencies using npm or yarn: `npm install` or `yarn install`.
 4. Start the development server: `npm start` or `yarn start`.
-5. Access the project in your web browser at `http://localhost:3000`.
+5. Access the project in your web browser at `http://localhost:8200`.
 
