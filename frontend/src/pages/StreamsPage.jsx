@@ -13,7 +13,7 @@ const StreamsPage = () => {
 
     const fetchStreams = async () => {
         try {
-            const response = await axios.get('http://localhost:8200/stream/streams',{
+            const response = await axios.get('https://university-dashboard-8.onrender.com/stream/streams',{
                 headers: {
                     'Content-Type': 'application/json',
                     'Authorization': `Bearer ${token}`
@@ -29,7 +29,7 @@ const StreamsPage = () => {
     const addStream = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:8200/stream/add', {
+            const response = await axios.post('https://university-dashboard-8.onrender.com/stream/add', {
                 name: streamName
             },{ headers: {
                 'Content-Type': 'application/json',
@@ -64,7 +64,7 @@ const StreamsPage = () => {
     const updateStream = async (id, updatedStreamName) => {
         try {
             const response = await axios.patch(
-                `http://localhost:8200/stream/update/${id}`,
+                `https://university-dashboard-8.onrender.com/stream/update/${id}`,
                 { name: updatedStreamName }, 
                 { 
                     headers: {
