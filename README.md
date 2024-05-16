@@ -10,6 +10,9 @@ The frontend of this project is deployed and accessible online. You can access i
 
 Feel free to explore the dashboard and interact with its features.
 
+## Backend Deployment
+(https://ud-3.onrender.com/)
+
 ## Admin Login Credentials
 
 To access the administrative features of the dashboard, please use the following login credentials:
