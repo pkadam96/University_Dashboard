@@ -91,7 +91,7 @@ const StreamsPage = () => {
 
     const handleDelete = async (id) => {
         try {
-            await axios.delete(`http://localhost:8200/stream/delete/${id}`,{ headers: {
+            await axios.delete(`https://university-dashboard-8.onrender.com/stream/delete/${id}`,{ headers: {
                 'Content-Type': 'application/json',
                 'Authorization': `Bearer ${token}`
             }});

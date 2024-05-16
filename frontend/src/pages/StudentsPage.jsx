@@ -10,7 +10,7 @@ const StudentsPage = () => {
 
     const fetchStudents = async () => {
         try {
-            const response = await axios.get('http://localhost:8200/student/students',{
+            const response = await axios.get('https://university-dashboard-8.onrender.com/student/students',{
                 headers: {
                     'Content-Type': 'application/json',
                     'Authorization': `Bearer ${token}`

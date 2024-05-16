@@ -20,7 +20,7 @@ const SignUpPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:8200/user/register', formData);
+      const response = await axios.post('https://university-dashboard-8.onrender.com/user/register', formData);
       if (response.status === 201) {
         alert("Account created successfully !!!")
         console.log('Registration successful:', response.data);

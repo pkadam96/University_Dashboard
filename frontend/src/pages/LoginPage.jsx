@@ -15,7 +15,7 @@ const LoginPage = () => {
 
   const login = async (email, password) => {
     try {
-      const response = await axios.post('http://localhost:8200/user/login', { email, password });
+      const response = await axios.post('https://ud-3.onrender.com/user/login', { email, password });
       const { role, accessToken } = response.data;
       console.log(response.data);
       localStorage.setItem('token', accessToken);
