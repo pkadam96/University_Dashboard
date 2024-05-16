@@ -11,7 +11,7 @@ The frontend of this project is deployed and accessible online. You can access i
 Feel free to explore the dashboard and interact with its features.
 
 ## Backend Deployment
-(https://ud-3.onrender.com/)
+https://university-dashboard-8.onrender.com
 
 ## Admin Login Credentials
 
